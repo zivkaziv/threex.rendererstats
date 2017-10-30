@@ -53,7 +53,7 @@ module.exports = function RendererStats() {
 
 			var i = 0;
 			msTexts[i++].textContent = '== Memory =====';
-			msTexts[i++].textContent = 'Programs: ' + (webGLRenderer ? webGLRenderer.info.memory.programs : '-');
+			msTexts[i++].textContent = 'Programs: ' + (webGLRenderer ? webGLRenderer.info.memory.programs.length : '-');
 			msTexts[i++].textContent = 'Geometries: ' + (webGLRenderer ? webGLRenderer.info.memory.geometries : '-');
 			msTexts[i++].textContent = 'Textures: ' + (webGLRenderer ? webGLRenderer.info.memory.textures : '-');
 
