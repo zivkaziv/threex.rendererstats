@@ -17,12 +17,12 @@ It is released under MIT license.
 
 Via yarn:
 ```javascript
-yarn add @xailabs/three-renderer-stats --save
+yarn add @xailabs/three-renderer-stats
 ```
 
 Via npm:
 ```javascript
-npm install @xailabs/three-renderer-stats
+npm install @xailabs/three-renderer-stats --save
 ```
 
 ## How To Use It
