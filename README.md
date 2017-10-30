@@ -5,6 +5,7 @@ FORKED FROM https://github.com/jeromeetienne/threex.rendererstats
 
 - Allow reset by calling `update()` without passing renderer
 - Published on npm
+- Fix programs count <a href="https://github.com/jeromeetienne/threex.rendererstats/pull/4" target="_blank">(~ PR4)</a>
 
 ========================================
 
@@ -21,7 +22,7 @@ yarn add @xailabs/three-renderer-stats --save
 
 Via npm:
 ```javascript
-npm install @xailabs/three-renderer-stats --save
+npm install @xailabs/three-renderer-stats
 ```
 
 ## How To Use It
