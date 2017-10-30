@@ -1,6 +1,6 @@
 {
   "name": "@xailabs/three-renderer-stats",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Fork of https://github.com/jeromeetienne/threex.rendererstats",
   "main": "threex.rendererstats.js",
   "directories": {
