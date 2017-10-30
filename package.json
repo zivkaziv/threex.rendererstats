@@ -1,0 +1,23 @@
+{
+  "name": "@xailabs/three-renderer-stats",
+  "version": "1.0.0",
+  "description": "Fork of https://github.com/jeromeetienne/threex.rendererstats",
+  "main": "threex.rendererstats.js",
+  "directories": {
+    "example": "examples"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xailabs/threex.rendererstats.git"
+  },
+  "keywords": [],
+  "author": "Jovica Aleksic <jovica.aleksic@xailabs.de>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xailabs/threex.rendererstats/issues"
+  },
+  "homepage": "https://github.com/xailabs/threex.rendererstats#readme"
+}
