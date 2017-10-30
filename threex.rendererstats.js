@@ -3,18 +3,16 @@ const THREE = require('three');
 /**
  * @author mrdoob / http://mrdoob.com/
  * @author jetienne / http://jetienne.com/
+ * @author loopmode / http://xailabs.de
  */
 
-/** @namespace */
-var THREEx = THREEx || {};
 
 /**
- * provide info on THREE.WebGLRenderer
- *
- * @param {Object} renderer the renderer to update
- * @param {Object} Camera the camera to update
+ * @return {object}
+ * @property {element} domElement - The DOM element container (automatically created )
+ * @property {function} update - Updates the stats. Expects a `webGLRenderer` reference. Resets output if no renderer reference is provided.
 */
-THREEx.RendererStats = function() {
+module.exports = function RendererStats() {
 	var msMin = 100;
 	var msMax = 0;
 
@@ -67,5 +65,3 @@ THREEx.RendererStats = function() {
 		}
 	};
 };
-
-module.exports = THREEx.RendererStats;
