@@ -1,5 +1,12 @@
-threex.rendererstats
-====================
+@xailabs/three-renderer-stats
+========================================
+
+FORKED FROM https://github.com/jeromeetienne/threex.rendererstats
+
+- Allow reset by calling `update()` without passing renderer
+- Published on npm
+
+========================================
 
 It is a three.js extension to display realtime informations about ```THREE.WebGLRenderer```.
 Here is a [basic example](http://jeromeetienne.github.io/threex.rendererstats/examples/basic.html). It is widely inpired from @mrdoob [stats.js](https://github.com/mrdoob/stats.js/).
@@ -7,45 +14,41 @@ It is released under MIT license.
 
 ## How To install it
 
-You can install it manually or with
-[bower](http://bower.io/).
-for the manual version, first include ```threex.rendererstats.js``` with the usual
-
-```html
-<script src='threex.rendererstats.js'></script>
+Via yarn:
+```javascript
+yarn add @xailabs/three-renderer-stats --save
 ```
 
-or with
-[bower](http://bower.io/) 
-you type the following to install the package.
-
-```bash
-bower install -s threex.rendererstats=https://github.com/jeromeetienne/threex.rendererstats/archive/master.zip
-```
-
-then you add that in your html
-
-```html
-<script src="bower_components/threex.rendererstats/threex.rendererstats.js"></script>
+Via npm:
+```javascript
+npm install @xailabs/three-renderer-stats --save
 ```
 
 ## How To Use It
 
-```
-var rendererStats	= new THREEx.RendererStats()
+```javascript
+import RendererStats from '@xailabs/three-renderer-stats';
+const rendererStats = new RendererStats();
 ```
 
-position it on the page with css with something along this line
+position it on the page with css with something along this line:
 
-```
+```javascript
 rendererStats.domElement.style.position	= 'absolute'
 rendererStats.domElement.style.left	= '0px'
 rendererStats.domElement.style.bottom	= '0px'
 document.body.appendChild( rendererStats.domElement )
 ```
 
-finally update it at every frame
+finally update it at every frame, passing the webGLRenderer reference:
 
-```
+```javascript
 rendererStats.update(renderer);
+```
+
+
+update it without passing anything (or passing something falsy) to reset the displayed output:
+
+```javascript
+rendererStats.update(null);
 ```
