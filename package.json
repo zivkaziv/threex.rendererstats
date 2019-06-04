@@ -1,6 +1,6 @@
 {
   "name": "@zivkaziv/three-renderer-stats",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Fork of https://github.com/jeromeetienne/threex.rendererstats",
   "main": "threex.rendererstats.js",
   "directories": {
