@@ -1,5 +1,6 @@
 @zivkaziv/three-renderer-stats
 ========================================
+Without Require() and module.exports
 
 FORKED FROM https://github.com/xailabs/threex.rendererstats
 
