@@ -1,7 +1,7 @@
-@xailabs/three-renderer-stats
+@zivkaziv/three-renderer-stats
 ========================================
 
-FORKED FROM https://github.com/jeromeetienne/threex.rendererstats
+FORKED FROM https://github.com/xailabs/threex.rendererstats
 
 - Allow reset by calling `update()` without passing renderer
 - Published on npm
@@ -17,18 +17,18 @@ It is released under MIT license.
 
 Via yarn:
 ```javascript
-yarn add @xailabs/three-renderer-stats
+yarn add @zivkaziv/three-renderer-stats
 ```
 
 Via npm:
 ```javascript
-npm install @xailabs/three-renderer-stats --save
+npm install @zivkaziv/three-renderer-stats --save
 ```
 
 ## How To Use It
 
 ```javascript
-import RendererStats from '@xailabs/three-renderer-stats';
+import RendererStats from '@zivkaziv/three-renderer-stats';
 const rendererStats = new RendererStats();
 ```
 
